@@ -1,13 +1,19 @@
 {
+	"manifest_version": 3,
 	"name": "Archive.is",
 	"description": "An (unofficial) Archive.is chrome extension",
-	"version": "0.2",
+	"version": "0.1",
 	"incognito": "split",
-	"permissions": ["contextMenus"],
+	"permissions": [
+		"contextMenus",
+		"activeTab",
+		"scripting"
+	],
 	"background": {
-		"scripts": ["archive.is.js"]
+		"service_worker": "background.js"
 	},
 	"icons": { "128": "icon.png" },
-
-	"manifest_version": 2
+	"action": {
+		"default_popup": "popup.html"
+	}	
 }
