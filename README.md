@@ -20,10 +20,10 @@ chrome://extensions/
 4. The extension is now installed.  There are a few options for converting a webpage into archive.is.  First, you can right-click anywhere on the page:
 ![page_right_click](images/page_right_click.jpg)
 
-	Second, you can right-click a link to archive a page without opening it:
-    ![link_right_click](images/link_right_click.jpg)
+Second, you can right-click a link to archive a page without opening it:
+![link_right_click](images/link_right_click.jpg)
 
-	Third, you can use the extension button:
-    ![popup](images/popup.jpg)
+Third, you can use the extension button:
+![popup](images/popup.jpg)
 
-	That's everything you need to know.  Enjoy!
+That's everything you need to know.  Enjoy!
